@@ -31,14 +31,10 @@ Please ensure you have the following software installed:
 
 ### Steps
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/amaris72/video-script-generator.git
-   cd video-script-generator
-   ```
+1. Download this repository: https://github.com/amaris72/video-script-generator/archive/refs/heads/main.zip
 
 2. Install the required Python libraries:
-   ```bash
+   ```bash  
    pip install -r requirements.txt
    ```
 
