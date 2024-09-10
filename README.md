@@ -31,21 +31,70 @@ Please ensure you have the following software installed:
 
 ### Steps
 
-1. Download this repository: https://github.com/amaris72/video-script-generator/archive/refs/heads/main.zip
+1. **Download the Code Repository**:
+   - Open a browser and visit the [Video Script Generator GitHub repository](https://github.com/amaris72/video-script-generator).
+   - Click the `Code` button, then select `Download ZIP`, or use the following command to clone the repository:
+     ```bash
+     git clone https://github.com/amaris72/video-script-generator.git
+     ```
 
-2. Install the required Python libraries:
-   ```bash  
-   pip install -r requirements.txt
-   ```
+2. **Extract and Enter the Project Directory**:
+   - If you downloaded the ZIP file, extract it and enter the extracted folder.
+   - Use the terminal to navigate to the project directory:
+     ```bash
+     cd video-script-generator
+     ```
 
-3. Open PyCharm and run the utils_2.py 
+3. **Create and Activate a Virtual Environment**:
+   - Create a virtual environment:
+     ```bash
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - On Windows:
+       ```bash
+       venv\Scripts\activate
+       ```
+     - On macOS or Linux:
+       ```bash
+       source venv/bin/activate
+       ```
 
-4. Start the application:
-   ```bash
-   streamlit run main_2.py
-   ```
+4. **Install Required Python Libraries**:
+   - Ensure you are in the virtual environment and run the following command to install the dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-5. Open the application in your browser, usually at `http://localhost:8501`.
+5. **Set OpenAI API Key**:
+   - Make sure you have a valid OpenAI API key.
+   - Set the environment variable in the terminal:
+     - On Linux or macOS:
+       ```bash
+       export OPENAI_API_KEY='your-api-key'
+       ```
+     - On Windows:
+       ```bash
+       set OPENAI_API_KEY='your-api-key'
+       ```
+
+6. **Start the Application**:
+   - Run the following command in the terminal to start the Streamlit app:
+     ```bash
+     streamlit run main_2.py
+     ```
+
+7. **Open the Application in Your Browser**:
+   - Open your browser and go to the following address:
+     ```
+     http://localhost:8501
+     ```
+
+## Notes:
+- Ensure that step 4 has the `requirements.txt` file present and includes the necessary libraries.
+- If you encounter any errors during the running process, check the output in the terminal for debugging hints.
+
+Following these steps, you should be able to successfully set up and run the Video Script Generator application.
 
 ## Usage
 
