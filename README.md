@@ -33,7 +33,7 @@ Please ensure you have the following software installed:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/video-script-generator.git
+   git clone https://github.com/amaris72/video-script-generator.git
    cd video-script-generator
    ```
 
