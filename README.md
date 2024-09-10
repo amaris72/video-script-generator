@@ -2,7 +2,11 @@
 
 🎬 **Video Script Generator** is a tool designed to create engaging video scripts using AI. Leveraging OpenAI's GPT-3.5-turbo model and Wikipedia's vast knowledge base, this tool generates video titles and scripts based on user inputs. Ideal for content creators looking for a quick way to generate video content ideas and scripts.
 
+Home Page:   
 ![FireShot Capture 228 - main_2 · Streamlit - localhost](https://github.com/user-attachments/assets/6d4da540-c23d-4387-b0f8-8194b83a2ab1)
+
+Result:
+![FireShot Capture 230 - main_1 · Streamlit - localhost](https://github.com/user-attachments/assets/4da58538-cb50-4387-ac0b-cd59c2d4e33a)
 
 
 ## Features
