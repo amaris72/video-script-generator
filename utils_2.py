@@ -25,9 +25,9 @@ def generate_script(subject, video_length, creativity, api_key):
 
     # Set OpenAI API key and parameters
     model = ChatOpenAI(model="gpt-3.5-turbo",
-                    openai_api_key = api_key,
-                    openai_api_base="https://api.openai.com/v1",
-                    temperature=creativity)
+                    openai_api_key = "sk-yaZnCFnbUOiR6phQF53cE26229Ce4f7182B80cA25064F9Fd",
+                    openai_api_base = "https://api.aigc369.com/v1",
+                    temperature = creativity)
     # temperature = creativity: Defines creativity, the higher the temperature, the more creative the output.
 
     # Pass prompts to the model
