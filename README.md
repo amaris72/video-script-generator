@@ -42,10 +42,7 @@ Please ensure you have the following software installed:
    pip install -r requirements.txt
    ```
 
-3. Run the backend code:
-   ```bash
-   python utils_2.py
-   ```
+3. Open PyCharm and run the utils_2.py 
 
 4. Start the application:
    ```bash
